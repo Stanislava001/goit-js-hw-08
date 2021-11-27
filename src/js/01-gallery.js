@@ -8,7 +8,7 @@ const galleryEl = document.querySelector('.gallery');
 const galleryMarkup = insertGalleryItem(galleryItems);
 galleryEl.insertAdjacentHTML('afterbegin', galleryMarkup);
 
-var lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a');
 
 galleryEl.addEventListener('click', onGalleryElClick);
 
